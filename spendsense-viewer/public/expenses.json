@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "date": "2025-06-01",
+    "category": "Food",
+    "amount": 250,
+    "description": "Burger"
+  },
+  {
+    "id": 2,
+    "date": "2025-06-02",
+    "category": "Travel",
+    "amount": 500,
+    "description": "Bus Pass"
+  },
+  {
+    "id": 3,
+    "date": "2025-06-03",
+    "category": "Shopping",
+    "amount": 1200,
+    "description": "Shoes"
+  },
+  {
+    "id": 4,
+    "date": "2025-06-04",
+    "category": "Food",
+    "amount": 300,
+    "description": "Pizza"
+  },
+  {
+    "id": 5,
+    "date": "2025-06-05",
+    "category": "Entertainment",
+    "amount": 700,
+    "description": "Movie Ticket"
+  },
+  {
+    "id": 6,
+    "date": "2025-06-06",
+    "category": "Food",
+    "amount": 180,
+    "description": "Coffee"
+  },
+  {
+    "id": 7,
+    "date": "2025-06-07",
+    "category": "Travel",
+    "amount": 850,
+    "description": "Train Ticket"
+  },
+  {
+    "id": 8,
+    "date": "2025-06-08",
+    "category": "Shopping",
+    "amount": 950,
+    "description": "Headphones"
+  },
+  {
+    "id": 9,
+    "date": "2025-06-09",
+    "category": "Entertainment",
+    "amount": 450,
+    "description": "Gaming"
+  },
+  {
+    "id": 10,
+    "date": "2025-06-10",
+    "category": "Food",
+    "amount": 350,
+    "description": "Restaurant"
+  },
+  {
+    "id": 11,
+    "date": "2025-06-11",
+    "category": "Travel",
+    "amount": 600,
+    "description": "Cab Ride"
+  },
+  {
+    "id": 12,
+    "date": "2025-06-12",
+    "category": "Shopping",
+    "amount": 2000,
+    "description": "Smart Watch"
+  },
+  {
+    "id": 13,
+    "date": "2025-06-13",
+    "category": "Entertainment",
+    "amount": 300,
+    "description": "Netflix"
+  },
+  {
+    "id": 14,
+    "date": "2025-06-14",
+    "category": "Food",
+    "amount": 400,
+    "description": "Biryani"
+  },
+  {
+    "id": 15,
+    "date": "2025-06-15",
+    "category": "Travel",
+    "amount": 750,
+    "description": "Metro Card"
+  }
+]
