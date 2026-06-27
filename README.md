@@ -112,8 +112,9 @@ npm run build
 
 ## 👨‍💻 Author
 
-**Mohd Younus Ahmed**
+**Mohd Younus Ahmed*
 
+* https://spendsense-expense-tracker.vercel.app/
 * GitHub: https://github.com/ahmed07x-1
 * LinkedIn: https://linkedin.com/in/mohd-younus-ahmed-5746b9239
 
