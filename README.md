@@ -113,13 +113,11 @@ npm run build
 ## 👨‍💻 Author
 
 **Mohd Younus Ahmed*
-
-* https://spendsense-expense-tracker.vercel.app/
+ * Live Demo: [SpendSense Expense Tracker](https://spendsense-expense-tracker.vercel.app/)
 * GitHub: https://github.com/ahmed07x-1
 * LinkedIn: https://linkedin.com/in/mohd-younus-ahmed-5746b9239
 
 ---
 
-## ⭐ Support
 
 If you found this project useful, consider giving it a **⭐ Star** on GitHub.
