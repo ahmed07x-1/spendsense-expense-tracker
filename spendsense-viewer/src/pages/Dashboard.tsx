@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaMoneyBillWave } from "react-icons/fa";
 
 import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
@@ -442,21 +444,57 @@ const handleEditExpense = (expense: Expense) => {
 
 <footer
   style={{
-    marginTop: "50px",
+    marginTop: "60px",
     textAlign: "center",
-    opacity: 0.8,
+    opacity: 0.95,
   }}
 >
   <hr />
-  <br />
 
-  <p>© 2026 SpendSense</p>
+  <h3 className="footer-title">
+    <FaMoneyBillWave className="footer-icon" />
+    SpendSense
+  </h3>
 
-  <p>
-    Built with React • TypeScript • Axios • Recharts
+  <p className="footer-tagline">
+    Track • Analyze • Save Smarter
+  </p>
+
+  <div className="footer-links">
+    <a
+      href="https://github.com/ahmed07x-1"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <FaGithub />
+      GitHub
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/mohd-younus-ahmed-5746b9239/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <FaLinkedin />
+      LinkedIn
+    </a>
+  </div>
+
+  <p className="footer-tech">
+    Powered by React • TypeScript • Vite • Axios • Recharts
+  </p>
+
+  <p className="footer-copy">
+    © 2026{" "}
+    <a
+      href="https://www.linkedin.com/in/mohd-younus-ahmed-5746b9239/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Mohd Younus Ahmed
+    </a>
   </p>
 </footer>
-
 {/* Floating Scroll Button */}
 
 <div

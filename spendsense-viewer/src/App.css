@@ -1606,41 +1606,170 @@ body{
    FOOTER • UTILITIES • FINAL RESPONSIVE
 ==========================================================*/
 
-/* ===========================
-   FOOTER
-=========================== */
-
+/*================ FOOTER ================*/
 footer{
-
     margin-top:60px;
-
-    padding:30px 20px;
-
+    padding:40px 20px;
     text-align:center;
-
     color:var(--text2);
 
+    border-top:1px solid rgba(255,255,255,.08);
+
+    background:rgba(255,255,255,.02);
+
+    backdrop-filter:blur(8px);
+
+    box-shadow:
+        0 -10px 35px rgba(124,108,255,.08),
+        inset 0 1px rgba(255,255,255,.05);
 }
 
 footer hr{
-
     border:none;
-
     height:1px;
-
     background:var(--border);
-
-    margin-bottom:20px;
-
+    margin-bottom:30px;
 }
 
-footer p{
+/* Logo */
 
-    margin:8px 0;
+.footer-title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:14px;
 
+    font-size:42px;
+    font-weight:800;
+    color:#7c6cff;
+
+    margin-bottom:8px;
+
+    text-shadow:0 0 18px rgba(124,108,255,.45);
+    transition:.3s ease;
+}
+
+.footer-title:hover{
+    transform:scale(1.03);
+}
+
+.footer-icon{
+    color:#ffb347;
+    font-size:34px;
+}
+
+/* Tagline */
+
+.footer-tagline{
+    color:#b7bfd3;
+    font-size:16px;
+    letter-spacing:.5px;
+    margin-bottom:28px;
+}
+
+/* Social Links */
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:18px;
+    flex-wrap:wrap;
+    margin-bottom:22px;
+}
+
+.footer-links a{
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    padding:10px 18px;
+
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:30px;
+
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+
+    transition:all .3s ease;
+}
+
+.footer-links a:hover{
+    background:#7c6cff;
+    color:white;
+
+    transform:translateY(-4px);
+
+    box-shadow:0 10px 25px rgba(124,108,255,.45);
+}
+
+.footer-separator{
+    color:#666;
+    font-size:18px;
+}
+
+/* Tech Stack */
+
+.footer-tech{
+    color:#9ea6b6;
     font-size:15px;
+    letter-spacing:.4px;
+    margin-top:10px;
 }
 
+/* Copyright */
+
+.footer-copy{
+    margin-top:14px;
+    color:#777;
+    font-size:13px;
+}
+
+.footer-copy a{
+    color:#b49cff;
+    font-weight:700;
+}
+
+.footer-copy a:hover{
+    color:#7c6cff;
+}
+
+/* Responsive */
+
+@media (max-width:768px){
+
+    .footer-title{
+        font-size:30px;
+    }
+
+    .footer-tagline{
+        font-size:15px;
+    }
+
+    .footer-links{
+        flex-direction:column;
+        gap:14px;
+    }
+
+    .footer-links a{
+        width:220px;
+        justify-content:center;
+    }
+
+    .footer-separator{
+        display:none;
+    }
+
+    .footer-tech{
+        font-size:14px;
+    }
+
+    .footer-copy{
+        font-size:12px;
+    }
+}
 /* ===========================
    SECTION TITLES
 =========================== */
